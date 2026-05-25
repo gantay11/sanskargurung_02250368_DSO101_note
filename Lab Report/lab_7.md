@@ -84,6 +84,7 @@ Step 4: Connect GitHub to Render
 •	Select "Web Service"
 •	Click "Connect GitHub"
 •	Select your repository
+![alt text](image7.png)
  
 Step 5: Configure the Service
 •	Fill in the following settings:

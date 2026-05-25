@@ -39,7 +39,9 @@ Step 1: View Local Images
 
 Step 2: Tag the Image with Docker Hub Username
 •	docker build .-t username/imagename
+![alt text](photo/lab5.1.png)
 -	Docker push username /imagename:letast
+![alt text](photo/lab5.2.png)
  
 Step 3: Push the Image to Docker Hub
 docker push username/imagename:latest

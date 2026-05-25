@@ -35,22 +35,30 @@ Python app.py
  app.py → the Python file you want to run
  
 •	Inside the python it contains this;
+![alt text](photo/lab4.1.png)
+![alt text](photo/lab4.2.png)
 •	While running on http://127.0.0.1:5000
 Output;
- 
+ ![alt text](photo/lab4.3.png)
+
 ## For next test.
-## output;
+![alt text](photo/lab4.4.png)
+## output
+![alt text](photo/image4.png)
 
 Step:3 Building docker image 
 -	Nano dockerfile
 -	Notepad dockrefile (will open the file)
+![alt text](photo/lab4.5.png)
  
 Step: 4
 •	Add this in your file
-
+![alt text](photo/image5.png)
 Step:5
 -	Ren Dockerfile.tet dockerfile
 -	Dockerbuild  -t flashapp  .
+![alt text](photo/lab4.6.png)
+![alt text](photo/lab4.7.png)
 Step:6
 -	Docker run  -p 8080: flashapp
 

@@ -43,6 +43,7 @@ Alternatively, developers can use self-hosted runners by deploying them to their
 
 # Workflow File Structure
 A GitHub Actions workflow file is written in YAML format. The basic structure is as follows:
+![alt text](photo/lab6.1.png)
 How GitHub Actions Works
 Once the developer commits his/her code in the GitHub repository, GitHub notices the event and scans the directory .github/workflows for any workflow file set up for the particular event. 
 
@@ -84,10 +85,12 @@ Step 1: Create a GitHub Repository
 Step 2: Clone the Repository in VS Code
 1.	Open Visual Studio Code
 2.	The repository DSO101_self-study-on-github-action was opened in VS Code via Source Control
+![alt text](photo/lab6.2.png)
 3.	The README.md file was visible in the Explorer panel confirming the repository was successfully cloned
  
 Step 3: Create the Workflow Directory
 1.	Open the terminal in VS Code by clicking Terminal → New Terminal
+![alt text](photo/lab6.2.png)
 2.	Navigate to the repository folder:
 •	cd DSO101_self-study-on-github-action
 3.	Run the following commands to create the required folder structure:
@@ -105,6 +108,7 @@ Step 5: Monitor the Workflow on GitHub
 2.	Click on the Actions tab at the top of the repository page
 3.	Observe that the workflow Hello World appeared under All workflows
 4.	The workflow run was listed as "Add first GitHub Actions workflow" with a green checkmark  indicating success
+![alt text](photo/lab6.3.png)
 5.	The run completed in 9 seconds
 
 Step 6: Inspect the Workflow Logs
@@ -120,6 +124,7 @@ Step 6: Inspect the Workflow Logs
 	Say hello
 	Complete job
 5.	Inside the Say hello step, the following output was confirmed:
+![alt text](photo/lab6.4.png)
  
 
 ## Conclusion
